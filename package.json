@@ -29,7 +29,7 @@
     "@angular/material": "^18.1.1",
     "@angular/platform-browser": "^18.1.1",
     "@angular/platform-browser-dynamic": "^18.1.1",
-    "@babel/core": "^7.24.9",
+    "@babel/core": "^7.26.10",
     "@ephox/agar": "8.0.1",
     "@ephox/bedrock-client": "^14.1.1",
     "@ephox/bedrock-server": "^14.1.3",
