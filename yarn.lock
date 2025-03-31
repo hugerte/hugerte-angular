@@ -3399,7 +3399,7 @@ __metadata:
     copyfiles: "npm:^2.4.1"
     core-js: "npm:^3.36.1"
     eslint-plugin-chai-friendly: "npm:^1.0.0"
-    eslint-plugin-storybook: "npm:^0.11.6"
+    eslint-plugin-storybook: "npm:^0.12.0"
     gh-pages: "npm:^6.1.0"
     hugerte: "npm:^1.0.4"
     hugerte-1: "npm:hugerte@^1.0.4"
@@ -10677,16 +10677,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^0.11.6":
-  version: 0.11.6
-  resolution: "eslint-plugin-storybook@npm:0.11.6"
+"eslint-plugin-storybook@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "eslint-plugin-storybook@npm:0.12.0"
   dependencies:
     "@storybook/csf": "npm:^0.1.11"
     "@typescript-eslint/utils": "npm:^8.8.1"
     ts-dedent: "npm:^2.2.0"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10c0/f9a38832221c5adbddc108602eea1cebb9b538c860023007b60ac34abb7e8ba38b7b2711b8c1c55b0844c7f7df84917c8a7e98c70c9b96e88e84b31dd93ff74f
+  checksum: 10c0/ce491ca9d817d231584c5016597158ae889780e428eccc93686d13e396ffdfd500318e5f997531c100cc3a7feff89fa2656ee125a116cf2d4d7e2baefbb0ade6
   languageName: node
   linkType: hard
 
