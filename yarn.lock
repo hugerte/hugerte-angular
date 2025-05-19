@@ -292,20 +292,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cdk@npm:^18.1.1":
-  version: 18.1.1
-  resolution: "@angular/cdk@npm:18.1.1"
+"@angular/cdk@npm:^19.2.16":
+  version: 19.2.16
+  resolution: "@angular/cdk@npm:19.2.16"
   dependencies:
     parse5: "npm:^7.1.2"
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": ^18.0.0 || ^19.0.0
-    "@angular/core": ^18.0.0 || ^19.0.0
+    "@angular/common": ^19.0.0 || ^20.0.0
+    "@angular/core": ^19.0.0 || ^20.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  dependenciesMeta:
-    parse5:
-      optional: true
-  checksum: 10c0/66fa9afebdecda6d30349c9c9315ac15607aa00cfc114d82c0b988b814b4192643dd6a168288827ecc714893e0290be2272c1e5aa7d332e4c3ffbc815ccf82b2
+  checksum: 10c0/11645ef945765ba138704efdb7d71f1a45afaa8f444d2ad004ae72f218dbbae8dff3d439d6e9eb5a2f44fe06ad45bd32654cc0f9914cf6687d089f3a64202cc6
   languageName: node
   linkType: hard
 
@@ -3367,7 +3364,7 @@ __metadata:
     "@angular-devkit/build-angular": "npm:^18.1.1"
     "@angular-devkit/core": "npm:^18.1.1"
     "@angular/animations": "npm:^18.1.1"
-    "@angular/cdk": "npm:^18.1.1"
+    "@angular/cdk": "npm:^19.2.16"
     "@angular/cli": "npm:^18.1.1"
     "@angular/common": "npm:^18.1.1"
     "@angular/compiler": "npm:^18.1.1"
