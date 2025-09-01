@@ -3397,7 +3397,7 @@ __metadata:
     chai: "npm:^5.1.1"
     codelyzer: "npm:^6.0.2"
     copyfiles: "npm:^2.4.1"
-    core-js: "npm:^3.36.1"
+    core-js: "npm:^3.45.1"
     eslint-plugin-chai-friendly: "npm:^1.0.0"
     eslint-plugin-storybook: "npm:^0.11.6"
     gh-pages: "npm:^6.1.0"
@@ -9313,7 +9313,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.36.1, core-js@npm:^3.6.4":
+"core-js@npm:^3.45.1":
+  version: 3.45.1
+  resolution: "core-js@npm:3.45.1"
+  checksum: 10c0/c38e5fae5a05ee3a129c45e10056aafe61dbb15fd35d27e0c289f5490387541c89741185e0aeb61acb558559c6697e016c245cca738fa169a73f2b06cd30e6b6
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.6.4":
   version: 3.37.1
   resolution: "core-js@npm:3.37.1"
   checksum: 10c0/440eb51a7a39128a320225fe349f870a3641b96c9ecd26470227db730ef8c161ea298eaea621db66ec0ff622a85299efb4e23afebf889c0a1748616102307675
