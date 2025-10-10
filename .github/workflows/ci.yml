@@ -1,0 +1,19 @@
+name: "Continuous Integration"
+
+on:
+  pull_request:
+  push:
+    branches:
+    tags:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - run: corepack enable
+      - name: Install packages
+        run: yarn install --immutable --check-cache
+      - name: Build
+        run: yarn build
