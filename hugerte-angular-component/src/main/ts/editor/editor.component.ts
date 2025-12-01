@@ -141,7 +141,6 @@ export class EditorComponent extends Events implements AfterViewInit, ControlVal
       this.inline = this.inline !== undefined ? this.inline !== false : !!(this.init?.inline);
       this.createElement();
       if (getHugeRTE() !== null) {
-        console.log(getHugeRTE()!.baseURI.source)
         this.initialise();
       } else if (this._element && this._element.ownerDocument) {
         new Observable<void>((observer) => {
