@@ -1,13 +1,13 @@
 import '../alien/InitTestEnvironment';
 
 import { Component, ViewChild } from '@angular/core';
-import { FormsModule, NgModel } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { Assertions, Waiter } from '@ephox/agar';
 import { describe, it } from '@ephox/bedrock-client';
 
 import { EditorComponent } from '../../../main/ts/editor/editor.component';
 import { eachVersionContext, editorHook } from '../alien/TestHooks';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
 describe('DisabledPropertyTest', () => {
   const getMode = (editor: any) => {
