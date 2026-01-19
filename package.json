@@ -68,7 +68,7 @@
     "webpack": "^5.95.0",
     "zone.js": "~0.14.8"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "@hugerte/hugerte-angular",
   "packageManager": "yarn@4.6.0"
 }
