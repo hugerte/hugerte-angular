@@ -28,4 +28,4 @@ jobs:
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         with:
-          model: opencode/glm-4.7-free
+          model: opencode/grok-code
