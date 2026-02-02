@@ -4,6 +4,7 @@ import { FormBuilder, FormControl } from '@angular/forms';
 @Component({
   selector: 'form-control',
   templateUrl: './FormControl.component.html',
+  standalone: false
 })
 export class FormControlComponent {
   public formControl: FormControl<string | null>;

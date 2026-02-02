@@ -3,7 +3,8 @@ import { MatTabChangeEvent } from '@angular/material/tabs';
 
 @Component({
   selector: 'material-tabs',
-  templateUrl: './MaterialTabs.component.html'
+  templateUrl: './MaterialTabs.component.html',
+  standalone: false
 })
 export class MaterialTabs implements AfterViewInit {
   @ViewChild('tabGroup', { static: false }) public tabGroup: any;

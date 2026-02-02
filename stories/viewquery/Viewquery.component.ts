@@ -3,7 +3,8 @@ import { EditorComponent } from '../../hugerte-angular-component/src/main/ts/edi
 
 @Component({
   selector: 'view-query',
-  templateUrl: './Viewquery.component.html'
+  templateUrl: './Viewquery.component.html',
+  standalone: false
 })
 export class ViewQueryComponent {
   @ViewChild(EditorComponent, { static: true }) public editorComponent!: EditorComponent;

@@ -10,6 +10,7 @@ import type { EditorComponent } from '../../hugerte-angular-component/src/main/t
   selector: 'form-with-on-push',
   templateUrl: './form-with-on-push.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  standalone: false
 })
 export class FormWithOnPushComponent {
   public readonly initialValue = '';
