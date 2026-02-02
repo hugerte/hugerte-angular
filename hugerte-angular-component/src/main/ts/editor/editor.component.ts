@@ -7,7 +7,7 @@
  * See https://github.com/hugerte/hugerte-angular/blob/main/LICENSE.txt
  *
  */
-/* eslint-disable @typescript-eslint/no-parameter-properties */
+/* eslint-disable @typescript-eslint/parameter-properties */
 import { isPlatformBrowser, CommonModule } from '@angular/common';
 import {
   AfterViewInit,
@@ -107,7 +107,7 @@ export class EditorComponent extends Events implements AfterViewInit, ControlVal
     elementRef: ElementRef,
     ngZone: NgZone,
     private cdRef: ChangeDetectorRef,
-    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(PLATFORM_ID) private platformId: object,
     @Optional() @Inject(HUGERTE_SCRIPT_SRC) private hugerteScriptSrc?: string
   ) {
     super();

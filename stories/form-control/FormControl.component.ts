@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl } from '@angular/forms';
 
@@ -9,9 +8,10 @@ import { FormBuilder, FormControl } from '@angular/forms';
 export class FormControlComponent {
   public formControl: FormControl<string | null>;
 
-  // eslint-disable-next-line @typescript-eslint/no-parameter-properties
+  // eslint-disable-next-line @typescript-eslint/parameter-properties
   public constructor(private readonly formBuilder: FormBuilder) {
     this.formControl = this.formBuilder.control<string | null>(null);
+    // eslint-disable-next-line no-console
     this.formControl.valueChanges.subscribe(console.log);
     this.formControl.setValue('<p>Initial value</p>');
     // Console log should be triggered just once
