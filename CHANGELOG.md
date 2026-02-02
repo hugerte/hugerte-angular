@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The HugeRTE Angular component 1.0.0 is based on the TinyMCE Angular component 9.0.0-rc. Unreleased changes from Tiny made after their 8.0.1 release are included in this changelog.
 
+## Unreleased
+
+### Fixed
+- `EventObj` interface not being importable.
+
 ## 1.0.3 - 2026-01-19
 
 ### Fixed
