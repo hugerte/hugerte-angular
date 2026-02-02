@@ -3768,7 +3768,7 @@ __metadata:
     eslint-plugin-chai-friendly: "npm:^1.0.0"
     eslint-plugin-storybook: "npm:^0.11.6"
     gh-pages: "npm:^6.1.0"
-    hugerte: "npm:^1.0.4"
+    hugerte: "npm:^1.0.9"
     hugerte-1: "npm:hugerte@^1.0.4"
     json: "npm:11.0.0"
     ng-packagr: "npm:^18.1.0"
@@ -12893,10 +12893,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hugerte-1@npm:hugerte@^1.0.4, hugerte@npm:^1.0.4":
+"hugerte-1@npm:hugerte@^1.0.4":
   version: 1.0.7
   resolution: "hugerte@npm:1.0.7"
   checksum: 10c0/dec8e83e56dd8fe8cb4ad2f889f2de1feab078f80dff059fe3c88dc0c4e5f7b06c322ddf4020cd0bf1fb11be9335a6b3fa36e1e895aa030fdeb3493215762f12
+  languageName: node
+  linkType: hard
+
+"hugerte@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "hugerte@npm:1.0.9"
+  checksum: 10c0/b55c033167df557375ea5f50730ea7c1bc44f3e578f7a0296ddd961558534a5c482be7f7e34490a1bca1c9cc485362e8c1c8e085d0d036fe68eaa0fee5a42982
   languageName: node
   linkType: hard
 
