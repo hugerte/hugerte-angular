@@ -3766,7 +3766,7 @@ __metadata:
     copyfiles: "npm:^2.4.1"
     core-js: "npm:^3.46.0"
     eslint-plugin-chai-friendly: "npm:^1.0.0"
-    eslint-plugin-storybook: "npm:^0.11.6"
+    eslint-plugin-storybook: "npm:^9.1.15"
     gh-pages: "npm:^6.1.0"
     hugerte: "npm:^1.0.4"
     hugerte-1: "npm:hugerte@^1.0.4"
@@ -6475,15 +6475,6 @@ __metadata:
   peerDependencies:
     storybook: ^9.1.17
   checksum: 10c0/049e06a8c0a3cd9061c4c3cbab4e002a73e331073560489329137a460904f1811406a2afac04ecd32e30f8187b1f5b1eb5057a86414a3b02e53ebb68a0c1d2eb
-  languageName: node
-  linkType: hard
-
-"@storybook/csf@npm:^0.1.11":
-  version: 0.1.13
-  resolution: "@storybook/csf@npm:0.1.13"
-  dependencies:
-    type-fest: "npm:^2.19.0"
-  checksum: 10c0/7c57b531ac95ca45239f498d419483d675e58cd8d549e0bac623519cc1ef4f3c9c6b75ec3873aa51cc2872728012db5dd5e1f2c2d8085014241eb4b896480996
   languageName: node
   linkType: hard
 
@@ -10984,16 +10975,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^0.11.6":
-  version: 0.11.6
-  resolution: "eslint-plugin-storybook@npm:0.11.6"
+"eslint-plugin-storybook@npm:^9.1.15":
+  version: 9.1.15
+  resolution: "eslint-plugin-storybook@npm:9.1.15"
   dependencies:
-    "@storybook/csf": "npm:^0.1.11"
     "@typescript-eslint/utils": "npm:^8.8.1"
-    ts-dedent: "npm:^2.2.0"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10c0/f9a38832221c5adbddc108602eea1cebb9b538c860023007b60ac34abb7e8ba38b7b2711b8c1c55b0844c7f7df84917c8a7e98c70c9b96e88e84b31dd93ff74f
+    storybook: ^9.1.15
+  checksum: 10c0/762218665cc8dba17749ef6f4a57a1c9c2d1a0a72f0e06c003481c46b1fae69c54dcdc29053c925d3a2e54184009e53de154ea082bbab7c11f659a016396a72e
   languageName: node
   linkType: hard
 
