@@ -64,7 +64,7 @@
     "to-string-loader": "^1.1.5",
     "tslib": "^2.8.1",
     "typescript": "^5.9.3",
-    "webpack": "^5.95.0",
+    "webpack": "^5.104.1",
     "zone.js": "~0.16.0"
   },
   "version": "1.1.0",
